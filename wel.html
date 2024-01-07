@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+
+        h1{
+            margin-right: 150px;
+            margin-left: 800px;
+        }
+
+
+p{
+
+    margin-right: 150px;
+  margin-left: 760px;
+}
+
+body{
+
+    background-color:rgb(27, 28, 49);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+input{
+    background-color: rgb(10, 10, 34) ;
+    
+    color: rgb(255, 255, 255);
+    height: 20px;
+    
+    border-bottom:0 ;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+
+    
+}
+form{
+
+   
+    margin-right: 150px;
+  margin-left: 700px;
+}
+
+button{
+
+    
+padding: 2px 95px;
+font-size: 16px;
+cursor: pointer;
+
+background-color: rgb(58, 59, 79);
+color: white;
+border-color: white;
+margin-right: 150px;
+margin-left: 120px;
+}
+
+textarea{
+
+    background-color: rgb(10, 10, 34) ;
+    
+    color: rgb(255, 255, 255);
+    border-bottom:0 ;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    
+
+}
+
+div{
+
+    border-top: 3px solid  rgb(56, 57, 77) ;
+    border-bottom:3px solid rgb(56, 57, 77) ;
+     width: 28.5em;
+     
+
+
+}
+
+
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+<h1>Registration Form</h1>
+<p>Please fill out this form with required information</p>
+  
+<br><br>
+
+<form>
+   
+    <label for="fname">Enter Your First Name<strong>:</strong></label>
+   <br><br>
+   <input type="text" name="text" id="text" size="60" >
+   <br><br>
+   <label>Entetr Your Last Name<strong>:</strong></label>
+    
+    <br><br>
+    <input type="text" id="lname" name="lname" size="60" >
+    <br><br>
+    <label>Enter Your Email<strong>:</strong></label>
+    <br><br>
+    <input type="email" id="email" name="email" required size="60" >
+    <br><br>
+    <label>Create a New Password<strong>:</strong></label>
+    <br><br>
+    <input type="password" id="password" name="password" required size="60">
+    <br><br><br>
+    <div>
+        <br><br>
+     
+        <input type="radio" name="radio" id="radio">Personal Account
+        <br><br>
+        
+        <input type="radio" name="radio" id="rt">Business Account
+        <br><br>
+         
+            <input type="checkbox">I accept the <u>terms and conditions</u>
+                
+            <br><br><br>
+    </div>
+    <br><br>
+
+            <label>Upload a profile picture<strong>:</strong></label>
+            
+            <br><br>
+                          
+                <input type="file"  name="name" id="name" size="60" >
+            
+                
+            <br><br>
+            <label>Input your age (years)<strong>:</strong></label>
+            <br><br>
+            <input type="password" name="number" id="number" size="60" >
+               <br><br>
+               <label>How did you hear about us?</label>
+               <br><br>
+
+               <Select >
+                <option value="Select">(Select one)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       </option>
+                <option value="10">FRIEND</option>
+                <option value="20">NEIGHBOUR</option>
+                <option value="30">RELATIVE</option>
+               </Select>
+
+               <br><br>
+            <label>Provide a bio<strong>:</strong></label>
+            <br><br>
+            <textarea name="text" id="text" cols="60" rows="3" placeholder="I like coding on the beach..."></textarea>
+
+            <br><br><br>
+            
+            
+            <button type="submit" class="block">Submit</button>
+  </form>
+  
+
+
+    
+</body>
+</html>
